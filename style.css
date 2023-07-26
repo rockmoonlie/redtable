@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: arial;
+}
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom:20px ;
+}
+
+main{
+    width: 60%;
+    height: 50%;
+    box-shadow: 2px 5px 10px 10px #00000060;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+nav{
+    background-color: red;
+    height: 27px;
+}
+
+.div1, .div2{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-weight:900;
+}
+
+.div1 h1{
+    font-size: 20px;
+    font-weight:900;
+}
+
+.div2 h1:first-child{
+    font-size: 25px;
+    font-weight:900;
+}
+
+.div2 h1:first-child::after{
+    content:"";
+    display: block;
+    width: 50px;
+    border-bottom:5px solid red ;
+
+}
+
+.div2 h1:last-child{
+    font-size: 20px;
+    font-weight:900;
+}
+
+.div2{
+    margin-bottom: 30px;
+}
+
+table, tr, td, th{ 
+    border: 2px solid black;
+    padding-left: 2px;
+    height: 30px;
+}
+
+th{
+    background-color: red;
+    color: white;
+    text-align: left;
+    font-weight: 300;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+td{
+    padding-left: 5px; 
+}
+
+table{
+    border-collapse: collapse;
+    width: 90%;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.number{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding: 50px;
+
+    
+}
+
+footer h4{
+    font-weight: 200;
+
+}
+
+.heure{
+    width:155px;
+}
