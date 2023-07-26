@@ -16,13 +16,12 @@ main{
     height: 50%;
     box-shadow: 2px 5px 10px 10px #00000060;
     border: none;
-    border-radius: 10px;
     
 }
 
 nav{
     background-color: red;
-    height: 27px;
+    height: 20px;
 }
 
 .div1, .div2{
@@ -33,7 +32,7 @@ nav{
 }
 
 .div1 h1{
-    font-size: 20px;
+    font-size: 15px;
     font-weight:900;
 }
 
@@ -51,7 +50,7 @@ nav{
 }
 
 .div2 h1:last-child{
-    font-size: 20px;
+    font-size: 15px;
     font-weight:900;
 }
 
@@ -106,4 +105,12 @@ footer h4{
 
 .heure{
     width:155px;
+}
+
+.sign{
+    width: 105px;
+}
+
+.hash{
+    width: 40px;
 }
